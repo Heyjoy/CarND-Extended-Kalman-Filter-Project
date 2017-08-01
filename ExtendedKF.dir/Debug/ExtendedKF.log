@@ -1,1 +1,15 @@
-﻿  ExtendedKF.vcxproj -> D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\build\Debug\ExtendedKF.exe
+﻿  kalman_filter.cpp
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\kalman_filter.cpp(45): warning C4244: “初始化”: 从“__int64”转换到“long”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\kalman_filter.cpp(55): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\kalman_filter.cpp(56): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\kalman_filter.cpp(57): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\kalman_filter.cpp(58): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\kalman_filter.cpp(78): warning C4244: “初始化”: 从“__int64”转换到“long”，可能丢失数据
+  tools.cpp
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\tools.cpp(28): warning C4244: “参数”: 从“unsigned __int64”转换到“const double”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\tools.cpp(41): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\tools.cpp(42): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\tools.cpp(43): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
+D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\tools.cpp(44): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
+  正在生成代码...
+  ExtendedKF.vcxproj -> D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\build\Debug\ExtendedKF.exe
