@@ -1,5 +1,1 @@
-﻿  FusionEKF.cpp
-D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\FusionEKF.cpp(86): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
-D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\FusionEKF.cpp(87): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
-D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\src\FusionEKF.cpp(88): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
-  ExtendedKF.vcxproj -> D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\build\Debug\ExtendedKF.exe
+﻿  ExtendedKF.vcxproj -> D:\Udacity\CarND-Extended-Kalman-Filter_T2P1\build\Debug\ExtendedKF.exe
