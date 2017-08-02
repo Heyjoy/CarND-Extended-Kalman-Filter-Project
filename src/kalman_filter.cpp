@@ -56,17 +56,28 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 	float py = x_(1);
 	float vx = x_(2);
 	float vy = x_(3);
-	float rho = sqrt(px*px + py*py);
-	if (rho < 0.0001) {
-		cout << "ERROR:divided by zero" << endl;
+	
+	float c1 = px*px + py*py;
+	float c2 = sqrt(c1);
+	float c3 = (c1*c2);
+
+	float ro = c2;
+	if (fabs(ro) < 0.0001) {
+		cout << "ERROR:ro is zero" << endl;
 		return;
 	}
+	//Normalizing Angles
 	float phi = atan2(py, px);
-	float rho_dot = (px*vx + py*vy) / rho;
+	if (phi > (M_PI-0.01) || phi < (0.01- M_PI))
+	{
+		cout << "ERROR:Angle is too closed to bound, avoid these values" << endl;
+		return;
+	}
+	float ro_dot = (px*vx + py*vy) / c2;
 
 
 	VectorXd h(3);
-	h << rho, phi, rho_dot;
+	h << ro, phi, ro_dot;
 	VectorXd y = z - h;
 	MatrixXd Ht = H_.transpose();
 	MatrixXd S = H_ * P_ * Ht + R_;
